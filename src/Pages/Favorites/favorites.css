@@ -1,0 +1,123 @@
+.favorites {
+  margin: 5% 5% 5% 0;
+}
+
+.favoritesLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.favoritesCard {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  background: linear-gradient(45deg, #0b0b0b, #1b1b1b);
+  gap: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.favoritesLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.favoritesHomeText .stars {
+  display: flex;
+}
+
+.favoritesHomeText {
+  display: flex;
+  align-items: center;
+}
+
+.favoritesHomeText p:first-child {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #ab572d;
+  font-weight: 700;
+}
+
+.favoritesHomeText input[type="button"] {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 0 10px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.favoritesHomeText input[type="button"]:hover {
+  background-color: #ab572d;
+  color: #fff;
+}
+
+.favoritesImg {
+  transition: 0.5s;
+}
+
+.favoritesImg:hover {
+  transform: scale(1.1);
+}
+
+.favoritesNull {
+  color: #ab572d;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .favoritesCard {
+    width: 50vw;
+    margin: 20px auto;
+  }
+
+  .favoritesCard div h2 {
+    margin-right: 25px;
+  }
+
+  .favoritesLists {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .favoritesCard {
+    flex-direction: column;
+  }
+
+  .favoritesCard p {
+    text-align: center;
+  }
+
+  .favoritesCard div h2 {
+    margin: 0px;
+  }
+
+  .favoritesHomeText p {
+    margin: 10px 10px 10px 0;
+  }
+
+  .favoritesCard div h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .favoritesCard {
+    width: 70vw;
+  }
+
+  .favoritesImg {
+    width: 30vw;
+  }
+}

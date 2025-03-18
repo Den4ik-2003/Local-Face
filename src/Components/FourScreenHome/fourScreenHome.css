@@ -1,0 +1,86 @@
+.fourScreenHome h1 {
+  font-size: 50px;
+  color: #ab572d;
+  text-align: center;
+}
+
+.fourScreenHome {
+  margin: 5%;
+  color: #fff;
+}
+
+.fourScreenHomeCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1%;
+}
+
+.fourScreenHomeText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourScreenHomeText p:first-child {
+  margin-right: 20px;
+  color: #ab572d;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fourScreenHomeCard h2 {
+    text-align: center;
+    margin: 0 10px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.fourScreenHomeCard {
+  background: linear-gradient(45deg, #0B0B0B, #1B1B1B);
+  border-radius: 15px;
+  width: 290px;
+}
+
+.fourScreenHomeCard p {
+    text-align: center;
+}
+
+.fourScreenHomeCard p img {
+    height: 300px;
+}
+
+.fourScreenHomeArrow {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1441px) {
+  .fourScreenHomeArrow {
+    display: none;
+  }
+
+  .fourScreenHomeCards {
+    justify-content: center;
+  }
+
+  .fourScreenHome h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .fourScreenHomeCards {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .fourScreenHome h1 {
+    font-size: 30px;
+  }
+
+  .fourScreenHomeCard {
+    width: 200px;
+  }
+  
+}

@@ -1,0 +1,71 @@
+.sixScreenHome {
+    background-image: url(../images/sixScreenHome.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.sixScreenHome div {
+    width: 40%;
+    padding: 10% 5%;
+}   
+
+.sixScreenHome div h1 {
+    font-size: 50px;
+}
+
+.sixScreenHome div p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.sixScreenHomeBtn {
+    padding: 14px 30px;
+    border-radius: 10px;
+    background-color: #AB572D;
+    font-size: 16px;
+    color: #fff;
+    transition: 5s;
+    cursor: pointer;
+    border: 0;
+    transition: .5s;
+}
+
+.sixScreenHomeBtn:hover {
+    background: linear-gradient(to right, #AB572D, #DE8E47, #D06F35, #E2B17C);
+}
+
+@media screen and (max-width: 950px) {
+    .sixScreenHome div {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2%;
+    }
+
+    .sixScreenHome {
+        height: 100vh;
+    }
+
+    .sixScreenHome {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .sixScreenHome div h1 {
+        font-size: 20px;
+        margin-top: 15%;
+    }
+
+    .sixScreenHome div p {
+        font-size: 14px;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .sixScreenHomeBtn {
+        padding: 7px 15px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,49 @@
+.thereeScreenAboutUs h2 {
+    font-size: 32px;
+    color: #AB572D;
+    text-align: center;
+}
+
+.thereeScreenAboutUs {
+    margin: 5%;
+}
+
+.thereeScreenAboutUsLists {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.thereeScreenAboutUsList {
+    width: 25%
+}
+
+.thereeScreenAboutUsList h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.thereeScreenAboutUsList p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.thereeScreenAboutUsText {
+    font-size: 20px;
+    color: #fff;
+    opacity: .8;
+}
+
+@media screen and (max-width: 1000px) {
+    .thereeScreenAboutUsList {
+        width: 100%
+    }
+
+    .thereeScreenAboutUsText,
+    .thereeScreenAboutUsList p {
+        font-size: 16px;
+    }
+}

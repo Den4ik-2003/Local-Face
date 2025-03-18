@@ -1,0 +1,106 @@
+.twoScreenProductsList {
+  color: #fff;
+  position: relative;
+  margin: 0 5%;
+}
+
+.twoScreenTitle {
+  font-size: 50px;
+  text-align: center;
+}
+
+.twoScreenFlex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.twoScreenFlex img {
+  width: 30%;
+}
+
+.twoScreenFlex div {
+  width: 50%;
+}
+
+.twoScreenFlexColumn {
+  margin: 5%;
+}
+
+.twoScreenTwoTitle:first-child {
+  margin-bottom: 45px;
+  font-weight: 600;
+}
+
+.twoScreenTwoTitle {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.twoScreenFlexColumn h2 {
+  color: #13d0e3;
+  font-weight: 300;
+  margin: 0;
+}
+
+.twoScreenFlexColumn p {
+  margin: 40px 0;
+}
+
+.twoScreenProductsListBtn {
+  background-color: inherit;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.twoScreenProductsListBtn:hover {
+  transform: scale(1.1);
+  color: #13d0e3;
+  border: 2px solid #13d0e3;
+}
+
+.spot {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-color: #012a3d;
+  filter: blur(100px);
+  z-index: -1;
+  top: 200px;
+  right: 300px;
+}
+
+.twoScreenProductsList .twoScreenFlex img {
+  width: 30vw;
+}
+
+@media screen and (max-width: 1350px) {
+  .twoScreenTwoTitle:first-child {
+    margin-bottom: 10px;
+  }
+
+  .twoScreenTwoTitle {
+    font-size: 30px;
+  }
+
+  .twoScreenFlexColumn p {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .twoScreenFlex img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .twoScreenFlex div {
+    width: 100%;
+  }
+}

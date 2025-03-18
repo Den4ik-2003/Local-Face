@@ -1,0 +1,161 @@
+.productDetail {
+    color: #fff;
+    margin: 5%;
+}
+
+.productDetailFlex {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.productDetailBigImage {
+    height: 100vh;
+}
+
+.productDetailSmallImage {
+    height: 20vh;
+}
+
+.productDetailFlex h2 {
+    color: #AB572D;
+    font-size: 40px;
+}
+
+.productDetailCard {
+    text-align: center;
+    width: 25%;
+}
+
+.imageInfo {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.imageInfo:hover {
+    transform: scale(1.1);
+}
+
+.productDetailFlex {
+    display: flex;
+}
+
+.productDetailFlex .productDetailColor {
+    background-color: #AB572D;
+}
+
+.productDetailRaiting {
+    width: 250px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.stars2 {
+    width: 70px;
+}
+
+.raitingFlex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.raitingFlex div {
+    display: flex;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.raitingFlex div img {
+    margin-right: 10px;
+}
+
+.reviews {
+    font-size: 50px;
+    color: #AB572D;
+    text-align: center;
+}
+
+.spaceCenter {
+    justify-content: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .productDetailFlex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .productDetailFlex  div p:last-child {
+        display: none;
+    }
+
+    .productDetailCard {
+        width: 40%;
+    }
+
+    .productDetailCard img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .productDetailFlex {
+        margin-bottom: 20px;
+    }
+
+    .reviews {
+        font-size: 32px;
+        margin: 20px 0;
+    }
+
+    .stars {
+        text-align: center;
+    }
+
+    .stars2 {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .productDetailFlex {
+        flex-wrap: wrap;
+    }
+
+    .productDetailBigImage {
+        margin: 0 auto;
+    }
+
+    .productDetailCard {
+        width: 50%;
+    }
+
+    .productDetailCard img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .productDetailFlex div h1 {
+        font-size: 24px;
+    }
+
+    .productDetailFlex div p {
+        font-size: 14px;
+    }
+
+    .productDetailFlex div h2 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .productDetail h1 {
+        font-size: 24px;
+    }
+
+    .productDetail p {
+        font-size: 14px;
+    }
+}

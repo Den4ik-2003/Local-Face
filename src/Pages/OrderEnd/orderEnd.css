@@ -1,0 +1,54 @@
+.orderEnd h1 {
+    font-size: 50px;
+    color: #AB572D;
+    text-align: center;
+}
+
+.orderEnd .orderEndFlex h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 5% auto;
+    text-align: start;
+}
+
+.orderEnd .orderEndFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.backBtn {
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #AB572D;
+    border: 0;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.backBtn:hover {
+  background: linear-gradient(to right, #ab572d, #de8e47, #d06f35, #e2b17c);
+
+}
+
+.backBtnContainer {
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .orderEnd h1 {
+        font-size: 30px;
+    }
+
+    .orderEnd .orderEndFlex div h1 {
+        font-size: 20px;
+    }
+
+    .backBtn {
+        padding: 8px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+

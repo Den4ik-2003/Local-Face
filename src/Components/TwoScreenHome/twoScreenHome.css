@@ -1,0 +1,64 @@
+.twoScreenHomeImage {
+  background-image: url(../images/twoScreenHome.jpg);
+  background-size: cover;
+  height: 80vh;
+  color: #fff;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.twoScreenHomeImage h2 {
+  font-size: 50px;
+  color: #ab572d;
+}
+
+.twoScreenHomeImage p {
+  margin: 0 20%;
+  font-size: 18px;
+}
+
+.twoScreenHomeImage div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .twoScreenHomeImage {
+    height: 70vh;
+  }
+
+  .twoScreenHomeImage h2 {
+    font-size: 40px;
+  }
+
+  .twoScreenHomeImage p {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+
+  .twoScreenHomeImage div p {
+    width: 90%;
+  }
+
+  .twoScreenHomeImage div h2 {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twoScreenHomeImage p {
+    margin: 0 10%;
+  }
+
+  .twoScreenHomeImage h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  .twoScreenHomeImage {
+    height: 90vh;
+  }
+}

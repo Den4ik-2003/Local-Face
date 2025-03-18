@@ -1,0 +1,125 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Luxurious Elixir Rough",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 60,
+        "image": "./images/product1.png",
+        "price": 220,
+        "productDetails": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues. From the first spritz to the lingering dry-down, Luxurious Elixir promises an intoxicating experience that embodies the essence of lavish indulgence.",
+        "goldenOverture": "Luxurious Elixir opens with a grand flourish of radiant citrus and sun-kissed fruits, reminiscent of golden rays caressing your senses. The opulent heart unfolds with a bouquet of velvety roses and rare blooms, their essence radiating with the allure of gilded petals. As the fragrance settles, a sumptuous blend of warm amber, creamy vanilla, and smooth sandalwood evokes a sense of ultimate luxury and refinement."
+      },
+      {
+        "id": "2",
+        "name": "The Golden Legacy",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 103,
+        "image": "./images/product2.png",
+        "price": 160,
+        "productDetails": "Immerse yourself in the epitome of refinement with Golden Essence, a majestic fragrance that evokes a timeless symphony of gold and elegance. This precious potion is an ode to opulence, delicately crafted with the rarest ingredients and infused with the golden glow of luxury. From the moment it touches your skin, Golden Essence offers a captivating experience, enveloping you in the grandeur of indulgence."
+      },
+      {
+        "id": "3",
+        "name": "Luxurious Elixir",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 5,
+        "numberGrades": 90,
+        "image": "./images/product3.png",
+        "price": 250,
+        "productDetails": "Step into a realm of unrivaled luxury with Radiant Gold, a fragrance that weaves together the rich notes of sophistication and warmth. Crafted with the finest, rarest ingredients, Radiant Gold embodies the essence of opulence, casting a golden glow that lingers with every spritz. From the first encounter to the lasting embrace, this scent promises an unforgettable journey of grandeur."
+      },
+      {
+        "id": "4",
+        "name": "Luxurious Essence",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 212,
+        "image": "./images/product4.png",
+        "price": 260,
+        "productDetails": "Enter a world of extravagance with Opulent Aura, a fragrance that envelops you in the splendor of gold and luxury. With every drop, this golden masterpiece reveals an exquisite balance of elegance and allure, inviting you to bask in its lavish embrace. A truly intoxicating experience, Opulent Aura is the ultimate symbol of refined indulgence."
+      },
+      {
+        "id": "5",
+        "name": "Aurum Aura",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 103,
+        "image": "./images/product5.png",
+        "price": 200,
+        "productDetails": "Indulge in the essence of pure luxury with Golden Reverie, a fragrance that conjures an exquisite tapestry of golden splendor and sophistication. This captivating elixir is crafted with rare, precious ingredients and imbued with the allure of golden light, offering a sensory journey of unmatched elegance and indulgence."
+      },
+      {
+        "id": "6",
+        "name": "Gleaming Gilt",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 103,
+        "image": "./images/product6.png",
+        "price": 160,
+        "productDetails": "Discover the magic of Luxurious Mirage, an extraordinary fragrance that blends the opulence of gold with a symphony of seductive scents. Designed to captivate the senses, Luxurious Mirage embodies sophistication at its finest, leaving a lingering trail of golden allure that enchants with every passing moment."
+      },
+      {
+        "id": "7",
+        "name": "Gilded Elixir Rough",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 103,
+        "image": "./images/product7.png",
+        "price": 170,
+        "productDetails": "Immerse yourself in a fragrance that exudes grace and opulence with Golden Harmony, a scent that fuses luxurious notes of warmth and elegance. Crafted with exquisite precision, this fragrance envelops you in the radiant glow of gold, creating an unforgettable experience of sophistication and indulgence."
+      },
+      {
+        "id": "8",
+        "name": "Golden Luminary",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 4,
+        "numberGrades": 103,
+        "image": "./images/product8.png",
+        "price": 120,
+        "productDetails": "Experience the pinnacle of elegance with Golden Embrace, a fragrance that exudes a sense of opulence and charm. Designed with the finest ingredients and imbued with the richness of golden hues, Golden Embrace offers an enchanting journey of refined luxury that stays with you long after the first spritz."
+      },
+      {
+        "id": "9",
+        "name": "Decadent Opal",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 5,
+        "numberGrades": 40,
+        "image": "./images/product9.png",
+        "price": 160,
+        "productDetails": "Enter the world of timeless luxury with Golden Radiance, a fragrance that celebrates the harmonious blend of gold and indulgence. Every note is a reflection of sophistication, crafted with meticulous care to embody the true essence of lavishness. Let Golden Radiance transport you to a world of opulence with each spray."
+      },
+      {
+        "id": "10",
+        "name": "Gilded Elixir",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 5,
+        "numberGrades": 10,
+        "image": "./images/product10.png",
+        "price": 200,
+        "productDetails": "Unveil the allure of sophistication with Radiant Elixir, a fragrance that brings the elegance of gold to life in a stunning olfactory symphony. Carefully crafted with luxurious ingredients, this fragrance lingers with a captivating charm that evokes the warmth and richness of golden indulgence."
+      },
+      {
+        "id": "11",
+        "name": "Glamourous Gilt",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 5,
+        "numberGrades": 121,
+        "image": "./images/product11.png",
+        "price": 160,
+        "productDetails": "Indulge in a fragrant masterpiece with Golden Lustre, a luxurious scent that weaves a captivating tapestry of golden allure and sophistication. Each spritz transports you to a world of opulence, where every note exudes elegance, creating a sensory experience like no other."
+      },
+      {
+        "id": "12",
+        "name": "Luxury Enigma",
+        "text": "Step into a world of unparalleled opulence with Luxurious Elixir, an exquisite fragrance that weaves an enchanting symphony of gold and luxury. This gilded elixir is a celebration of sophistication, crafted with the finest essences and imbued with the allure of precious golden hues.",
+        "raiting": 5,
+        "numberGrades": 103,
+        "image": "./images/product12.png",
+        "price": 190,
+        "productDetails": "Embark on a journey of unparalleled refinement with Golden Essence, a fragrance that epitomizes the perfect union of gold and luxury. From the moment you inhale its intoxicating notes, Golden Essence envelops you in a world of sophistication, leaving a lasting impression of lavish indulgence."
+      }
+    ]
+  }

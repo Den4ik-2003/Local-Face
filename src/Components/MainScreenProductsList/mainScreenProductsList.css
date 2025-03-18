@@ -1,0 +1,90 @@
+.mainScreenProductsList h1 {
+  font-size: 50px;
+  color: #ab572d;
+  text-align: center;
+}
+
+.mainScreenProductsList {
+  margin: 5%;
+  color: #fff;
+}
+
+.mainScreenProductsListCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+.mainScreenProductsListText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mainScreenProductsListText p:first-child {
+  margin-right: 20px;
+  color: #ab572d;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fourScreenHomeCard {
+  background: linear-gradient(45deg, #0b0b0b, #1b1b1b);
+  border-radius: 15px;
+  width: 290px;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.fourScreenHomeText img {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mainScreenProductsListImage {
+  transition: 0.5s;
+}
+
+.mainScreenProductsListImage:hover {
+  transform: scale(1.1);
+}
+
+.mainScreenProductsListBtn {
+  padding: 10px 30px;
+    font-size: 16px;
+    background-color: #AB572D;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.mainScreenProductsListBtn:hover {
+  background: linear-gradient(to right, #ab572d, #de8e47, #d06f35, #e2b17c);
+}
+
+.mainScreenProductsListBtnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.mainScreenProductsListFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5%;
+  gap: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainScreenProductsList {
+    margin: 10px;
+  }
+}

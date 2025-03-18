@@ -1,0 +1,44 @@
+.mainScreenAboutUsBg {
+  height: 80vh;
+  background-image: url(../images/mainScreenAboutUs.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.mainScreenAboutUsBg h1 {
+  font-size: 50px;
+  padding: 10% 0 0 0;
+}
+
+.mainScreenAboutUsBg p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1650px) {
+  .mainScreenAboutUsBg h1 {
+    padding: 5% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainScreenAboutUsBg h1 {
+    padding: 5% 0 0 0;
+  }
+
+  .mainScreenAboutUsBg h1 {
+    margin: 10px 0;
+  }
+
+  .mainScreenAboutUsBg p {
+    width: 90%;
+  }
+
+  .mainScreenAboutUsBg {
+    height: 130vh;
+  }
+}

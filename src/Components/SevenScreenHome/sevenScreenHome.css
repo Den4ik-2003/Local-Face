@@ -1,0 +1,83 @@
+.sevenScreenHome h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #ab572d;
+}
+
+.sevenScreenHome {
+  margin: 5%;
+}
+
+.sevenScreenHomeCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  color: #fff;
+}
+
+.sevenScreenHomeCard h3 {
+  font-size: 22px;
+  height: 80px;
+  font-weight: 700;
+}
+
+.sevenScreenHomeCard {
+  width: 30%;
+}
+
+.sevenScreenHomeCard p {
+  height: 120px;
+}
+
+.sevenScreenHomeBtn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sevenScreenHomeBtn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1406px) {
+  .sevenScreenHomeCard {
+    width: 50%;
+  }
+
+  .sevenScreenHomeCard h3 {
+    height: 75px;
+  }
+
+  .sevenScreenHomeCard p {
+    height: 75;
+  }
+
+  .sevenScreenHomeCard {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .sevenScreenHomeCard {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 662px) {
+  .sevenScreenHomeCard h3 {
+    height: 120px;
+  }
+
+  .sevenScreenHomeCard p {
+    height: 150px;
+  }
+
+  .sevenScreenHomeCard img {
+    height: 50vh;
+  }
+}

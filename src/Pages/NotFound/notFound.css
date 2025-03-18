@@ -1,0 +1,10 @@
+.fuzzytextAnimate {
+    text-align: center;
+    margin-top: 10%;
+}  
+
+@media screen and (max-width: 657px) {
+    canvas {
+        width: 300px;
+    }
+}

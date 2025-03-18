@@ -1,0 +1,172 @@
+.twoScreenBlogSearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5%;
+  align-items: center;
+}
+
+.twoScreenBlog {
+  margin: 5%;
+}
+
+.twoScreenBlogFlex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.twoScreenBlogFlex p {
+  margin-right: 10px;
+}
+
+.twoScreenBlogSearch input {
+  height: 30px;
+  width: 20%;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.twoScreenBlogLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5%;
+  margin-top: 5%;
+}
+
+.twoScreenBlogBtn {
+  padding: 10px 30px;
+  background-color: inherit;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: 0.5s;
+}
+
+.twoScreenBlogBtn:hover {
+  transform: scale(1.1);
+}
+
+.twoScreenBlogList {
+  color: #fff;
+  width: 30%;
+}
+
+.twoScreenBlogList h4 {
+  font-weight: 700;
+  font-size: 20px;
+  height: 50px;
+}
+
+.twoScreenBlogList p {
+  opacity: 0.8;
+  margin-bottom: 20px;
+  height: 120px;
+}
+
+.twoScreenBlogBtn2 {
+  padding: 15px 60px;
+  font-size: 20px;
+  background-color: #ab572d;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.twoScreenBlogBtn2:hover {
+  background: linear-gradient(to right, #ab572d, #de8e47, #d06f35, #e2b17c);
+}
+
+.twoScreenBlogContainer {
+  margin-top: 5%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .twoScreenBlogList {
+    width: 35%;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+
+  .twoScreenBlogLists {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .twoScreenBlogList h4 {
+    height: 80px;
+  }
+
+  .twoScreenBlogList p {
+    height: 160px;
+  }
+
+  .twoScreenBlogList img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .twoScreenBlogSearch input {
+    width: 50%;
+  }
+
+  .twoScreenBlogSearch {
+    justify-content: center;
+  }
+
+  .twoScreenBlogList p {
+    height: 200px;
+  }
+
+  .twoScreenBlogBtn2 {
+    padding: 8px 30px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .twoScreenBlogList h4 {
+    height: 100px;
+  }
+
+  .twoScreenBlogList {
+    width: 100%;
+  }
+
+  .twoScreenBlogList img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .twoScreenBlogList h4 {
+    height: max-content;
+  }
+
+  .twoScreenBlogList p {
+    height: max-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twoScreenBlogList h4 {
+    font-size: 18px;
+  }
+
+  .twoScreenBlogBtn {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+
+  .twoScreenBlogList p {
+    font-size: 14px;
+  }
+}

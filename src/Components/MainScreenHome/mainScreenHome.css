@@ -1,0 +1,75 @@
+.mainScreenHome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+  margin: 0 5%;
+}
+
+.mainScreenHome div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.mainScreenHome div h1 {
+  font-size: 60px;
+}
+
+.mainScreenHomeBtn {
+  padding: 14px 30px;
+  border-radius: 10px;
+  background-color: #ab572d;
+  font-size: 16px;
+  color: #fff;
+  transition: 5s;
+  cursor: pointer;
+  border: 0;
+}
+
+.mainScreenHomeBtn:hover {
+  background: linear-gradient(to right, #ab572d, #de8e47, #d06f35, #e2b17c);
+}
+
+@media screen and (max-width: 1250px) {
+  .mainScreenHome div h1 {
+    font-size: 40px;
+  }
+
+  .mainScreenHome img {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .mainScreenHome div h1 {
+    font-size: 30px;
+  }
+
+  .mainScreenHome img {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .mainScreenHome div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .mainScreenHome div h1 {
+    font-size: 20px;
+  }
+
+  .mainScreenHome div p {
+    font-size: 16px;
+  }
+
+  .mainScreenHome img {
+    margin: 0 auto;
+  }
+}

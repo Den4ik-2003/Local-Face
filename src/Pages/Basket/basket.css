@@ -1,0 +1,155 @@
+.basket {
+  color: #fff;
+  margin: 5% 5% 5% 0;
+}
+
+.basketCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 40%;
+  background: linear-gradient(45deg, #0b0b0b, #1b1b1b);
+  gap: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.basketCard {
+  width: 40vw;
+}
+
+.basketLists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.basketHomeText .stars {
+  display: flex;
+}
+
+.basketHomeText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.basketHomeText p:first-child {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #ab572d;
+  font-weight: 700;
+}
+
+.basketHomeText input[type="button"] {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 0 10px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.basketHomeText input[type="button"]:hover {
+  background-color: #ab572d;
+  color: #fff;
+}
+
+.basketImg {
+  transition: 0.5s;
+}
+
+.basketImg:hover {
+  transform: scale(1.1);
+}
+
+.basketOrder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5%;
+  justify-content: space-between;
+  margin: 5%;
+  margin-top: 0;
+}
+
+.basketNull {
+  color: #ab572d;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.basketOrder h1 {
+  font-size: 35px;
+  color: #ab572d;
+}
+
+.basketBtnBuy {
+  padding: 20px 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ab572d;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.basketBtnBuy:hover {
+  background: linear-gradient(to right, #ab572d, #de8e47, #d06f35, #e2b17c);
+}
+
+.basketDelete {
+  height: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.basketDelete:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1350px) {
+    .basketCard {
+        flex-wrap: wrap;
+    }
+
+    .basketCard div,
+    .basketCard p {
+        margin: 0 auto;
+    }
+
+    .basketHomeText div,
+    .basketHomeText p {
+        margin: 10px auto;
+    }
+
+    .basketCard div h2 {
+        text-align: center;
+    }
+
+    .basketCard {
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .basketCard {
+        width: 80vw;
+    }
+
+    .basketOrder h1 {
+        font-size: 25px;
+    }
+
+    .basketBtnBuy {
+        padding: 10px 25px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,31 @@
+.mainScreenServicesBg {
+    height: 100vh;
+    background-image: url(../images/mainScreenServicesBg.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.mainScreenServicesBg h1 {
+    font-size: 50px;
+    padding: 10% 0 0 0;
+}
+
+.mainScreenServicesBg p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    opacity: .8;
+}
+
+@media screen and (max-width: 1500px) {
+    .mainScreenServicesBg {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+.mainScreenServicesBg p {
+    width: 90%;
+}
+}

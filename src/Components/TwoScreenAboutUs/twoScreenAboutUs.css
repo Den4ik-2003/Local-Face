@@ -1,0 +1,38 @@
+.twoScreenAboutUsBg {
+    height: 70vh;
+    background-image: url(../images/twoScreenAboutUs.jpg);
+    background-size: cover;
+}
+
+.twoScreenAboutUsContent {
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.twoScreenAboutUsContent h2 {
+    font-size: 32px;
+    color: #AB572D;
+    font-weight: 600;
+}
+
+.twoScreenAboutUsContent p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1000px) {
+    .twoScreenAboutUsContent {
+        width: 90%;
+    }
+
+    .twoScreenAboutUsContent p {
+        font-size: 16px;
+    }
+
+    .twoScreenAboutUsContent h2 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+}

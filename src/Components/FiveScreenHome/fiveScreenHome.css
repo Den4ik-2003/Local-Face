@@ -1,0 +1,67 @@
+.fiveScreenHome h1 {
+    font-size: 50px;
+    color: #AB572D;
+    text-align: center;
+}
+
+.fiveScreenHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.fiveScreenHome {
+    margin: 5%;
+}
+
+.fiveScreenHomeGallery {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 3%;
+}
+
+.fiveScreenHomeGalleryTwo {
+    margin: 3% 0;
+}
+
+.fiveScreenHomeGallery img {
+    position: relative;
+}
+
+.fiveScreenHomeImage {
+    position: relative;
+    transition: 1s;
+}
+
+.fiveScreenHomeImage:hover {
+    transform: scale(1.1);
+}
+
+.fiveScreenHomeImage p {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    left: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+    .fiveScreenHomeImage {
+        margin-top: 5%;
+    }
+
+    .fiveScreenHomeGallery {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .fiveScreenHomeImage img {
+        height: 30vh;
+    }
+
+    .fiveScreenHomeImage p {
+        display: none;
+    }
+}
